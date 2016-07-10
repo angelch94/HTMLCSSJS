@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacta con Batman</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/grid.css">
+    <script src="js/jquery-3.0.0.js"></script>
+</head>
+<script src="js/modernizr.js"></script>
+
+<body>
+<!-- menu de navegación -->
+<header>
+    <h1 class="h1-title-contacto">Contácta<span class="span-cite">me</span></h1>
+    <p class="title-cita-contacto"><span class="span-cite">"¿</span>Habl<span class="span-cite">amos</span>.?"</p>
+    <img id="title-img-animated" class="img-title-contacto" src="img/banner_contacto_.jpg"
+         alt="Imagen de portada de Contacto">
+</header>
+<nav class="navbar">
+
+    <img class="logo" src="img/logo.png" width="200" height="55">
+    <!-- menu de navegación -->
+
+    <ul class="navbar-list">
+        <li class="navbar-item">
+            <a href="index.html">Inicio</a>
+        </li>
+        <li class="navbar-item">
+            <a href="#quien-soy">Quien soy</a>
+        </li>
+        <li class="navbar-item">
+            <a href="#equipo">Estudios</a>
+        </li>
+        <li class="navbar-item">
+            <a href="#transporte">Experiencia</a>
+        </li>
+        <li class="navbar-item active">
+            <a href="contacto.html">Contacto</a>
+        </li>
+    </ul>
+</nav>
+<section>
+    <div class="row container">
+        <h2 class="heading-grid">Contacta con nosotros</h2>
+        <div class="col-6 margin logo">
+                    <form class="form margin" id="form" name="contact" method="get" novalidate>
+                        <div class="row">
+                            <div class=" col-12">
+                                <label for="nombre">Nombre</label>
+                                <div class="row">
+                                    <input type="text" id="nombre" name="nombre"
+                                           placeholder="Nombre" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="email">Introduce tu Email</label>
+                                <div class="row">
+                                    <input type="text" id="email" name="email"
+                                           placeholder="name@tu-dominio.com"
+                                           pattern="[A-Za-z0-9\.\+]+@[A-Za-z0-9]+\.[A-Za-z0-9\.]+" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="tlf">¿Cual es tu teléfono?</label>
+                                <div class="row">
+                                    <input name="tlf" type="number" id="tlf"
+                                           placeholder="123456789" pattern="[0-9]" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="select">¿Cómo has llegado hasta mi?</label>
+                                <div class="row">
+                                    <select class="select" name="select" id="select">
+                                        <option>Facebook</option>
+                                        <option>Twitter</option>
+                                        <option>Linkedin</option>
+                                        <option>Google</option>
+                                        <option>Otros</option>
+                                    </select>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="mensaje">Mensaje</label>
+                                <div class="row">
+                                    <textarea name="mensaje" id="mensaje"
+                                              placeholder="Describe mas tu consulta aqui..." required></textarea>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <input type="submit" name="Enviar">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            <div class="col-6 floatright">
+
+                <figure class="photo-experience-contacto">
+                    <img src="img/contacto.jpg"></figure>
+            </div>
+        </div>
+</section>
+<footer class="footer clearfix">
+    <div class="row container">
+        <div class="col-12" align="center">
+            <img src="img/logo.png" class="heading-grid" align="center">
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+</body>
+<script src="js/form.js"></script>
+<script src="js/animation.js"></script>
+</html>

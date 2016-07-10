@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Angel Cardona | My Own Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+</head>
+<script src="js/animation.js"></script>
+<script src="js/modernizr.js"></script>
+
+<body>
+<header>
+    <h1 class="h1-title">Mi Sitio Web Personal</h1>
+    <p class="title-cita">"Cualquier tecnología suficientemente avanzada es <span class="span-cite">indistinguible de la magia</span>."
+    </p>
+    <div id="title-img-animated" class="img-title"></div>
+</header>
+
+<nav class="navbar">
+
+    <img class="logo" src="img/logo.png" width="200" height="55">
+    <!-- menu de navegación -->
+
+    <ul class="navbar-list">
+        <li class="navbar-item active">
+            <a href="#">Inicio</a>
+        </li>
+        <li class="navbar-item">
+            <a href="#quien-soy">Quien soy</a>
+        </li>
+        <li class="navbar-item">
+            <a href="#estudios">Estudios</a>
+        </li>
+        <li class="navbar-item">
+            <a href="#experiencia">Experiencia</a>
+        </li>
+        <li class="navbar-item">
+            <a href="contacto.html">Contacto</a>
+        </li>
+    </ul>
+</nav>
+<div class="container">
+    <section id="quien-soy" class="about-me clearfix">
+        <div class="aboutme-videos">
+            <video width="500" height="400" controls>
+                <source src="video/nuncano.mp4" type="video/mp4">
+
+            </video>
+        </div>
+        <div class="aboutme-info">
+            <h2 class="heading-section">Quien soy</h2>
+            <strong>Batman:</strong>
+            <span>lLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</span>
+        </div>
+    </section>
+
+    <section id="estudios" class="estudios-section">
+        <div class="row container">
+            <div class="col-12">
+                <h1 class="heading-section">Estudios</h1>
+            </div>
+        </div>
+        <div class="row container">
+            <div class="col-4">
+                <article>
+                    <header>
+                        <h3 class="heading-grid">Quondos</h3>
+                        <span class="study-span">Curso de Marketing Digital & SEO</span>
+                    </header>
+                    <figure class="photo-study">
+                        <img src="img/quondos_logo.jpg" alt="Curso Marketing Online Quondos">
+                        <figcaption>
+                            <small class="small-imp">Logo de Quondos</small>
+                        </figcaption>
+                    </figure>
+                    <p class="study-span">Curso de Growth Hacking, Wordpress, Marketing de Afiliados, Marketing de
+                        Contenidos, CRO, Social Media. <cite>Quondos</cite></p>
+                </article>
+            </div>
+            <div class="col-4">
+                <article>
+                    <header>
+                        <h3 class="heading-grid">Felices Ventas</h3>
+                        <span class="study-span">Curso de CRO / Marketing de Afiliados / Marketing de contenidos / SEO & SEM</span>
+                    </header>
+                    <figure class="photo-study">
+                        <img src="img/felicesventas-logo.png" alt="Foto de Harvey">
+                        <figcaption>
+                            <small class="small-imp">Logo Felices Ventas</small>
+                        </figcaption>
+                    </figure>
+                    <p class="study-span">Curso de estrategias SEO & SEM, CRO, Marketing de Afiliados & Marketing de
+                        Contenido. SEO OnPage & Linkbuilding <cite>Felices Ventas</cite></p>
+                </article>
+            </div>
+            <div class="col-4">
+                <article>
+                    <header>
+                        <h3 class="heading-grid">Keep Coding</h3>
+                        <span class="study-span">Master de Programación Web</span>
+
+                    </header>
+                    <figure class="photo-study">
+                        <img src="img/logokeepcoding.png" alt="Logo KeepCoding">
+                        <figcaption>
+                            <small class="small-imp">API en NodeJS / HTML5 / CSS / Javascript / MongoDB</small>
+                        </figcaption>
+                    </figure>
+                    <p class="study-span">Estudios sobre Programación Web (HTML5 / CSS3 / Javascript), API de datos en
+                        NodeJS con bases de datos MongoDB <cite> KeepCoding</cite></p></article>
+            </div>
+    </section>
+    <section id="experiencia" class="">
+        <div class="row container">
+            <div class="col-6">
+                <figure class="photo-experience">
+                    <div class="flip">
+                        <div class="front flip-img">
+                            <img src="img/knowledge.jpg" alt="Experiencia">
+                        </div>
+                        <div class="back flip-img">
+                            <img src="img/knowledge2.jpg" alt="Experiencia 2">
+
+                        </div>
+                    </div>
+
+                </figure>
+            </div>
+            <div class="col-6 margin">
+                <h2 class="heading-grid" align="center">Experiencia</h2>
+                <p class="">Estudio programación web en Keep Coding para mejorar mis propias páginas web y expandir mis
+                    conocimientos.
+                    Entre las tareas que desempeño o he desempeñado:</p>
+                <ul>
+                    <li>SEO & Posicionamiento en buscadores</li>
+                    <li>Marketing de Afiliación</li>
+                    <li>Marketing de Contenidos</li>
+                    <li>Social Media</li>
+                    <li>Google Adwords/Adsense</li>
+                    <li>CRO</li>
+                    <li>HTML5/CSS/Javascript</li>
+                    <li>Bases de datos Mysql</li>
+                    <li>Bases de datos Mongodb</li>
+
+                </ul>
+            </div>
+        </div>
+
+    </section>
+</div>
+<footer class="footer clearfix">
+    <div class="row container">
+        <div class="col-12" align="center">
+            <img src="img/logo.png" class="heading-grid" align="center">
+        </div>
+    </div>
+</footer>
+
+</body>
+<script src="js/menu.js"></script>
+<script src="js/animation.js"></script>
+</html>
